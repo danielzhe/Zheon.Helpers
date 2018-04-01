@@ -21,5 +21,15 @@ namespace Zheon.Common
                 throw new ArgumentException($"'{argName}' can not be null or empty.");
             }
         }
+
+        public static T IsTypeOf<T>(object obj, string argName)
+        {
+            if (obj is T result)
+            {
+                return result;
+            }
+
+            throw new ArgumentException($"'{argName}' must be of the type '{typeof(T).FullName}'.");
+        }
     }
 }
