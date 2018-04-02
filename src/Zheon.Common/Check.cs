@@ -14,6 +14,14 @@ namespace Zheon.Common
             }
         }
 
+        public static void IsNotNull<T>(T? strc, string argName) where T : struct
+        {
+            if (strc == null)
+            {
+                throw new ArgumentException($"'{argName}' can not be null.");
+            }
+        }
+
         public static void IsNotNullOrEmpty(string str, string argName)
         {
             if (string.IsNullOrEmpty(str))

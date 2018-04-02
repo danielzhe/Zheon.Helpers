@@ -4,11 +4,13 @@
     <TargetFrameworks>netcoreapp1.0; netcoreapp1.1;netcoreapp2.0;netstandard2.0;net4;net45;net451;net452;net46;net461;net462;net47;net471</TargetFrameworks>
     <Authors>Daniel José dos Santos (aka Daniel Zhe)</Authors>
     <Company>Zheon</Company>
-    <Description>Provides common helpers and syntax suggar to .NET development, like methods to verify if an argument is null and throws an exception if so, extensions to compare strings ignoring case with more suggar (?!) and so on.</Description>
-    <AssemblyVersion>0.0.0.2</AssemblyVersion>
-    <FileVersion>0.0.0.2</FileVersion>
+    <Description>Provides common helpers and syntax sugars to .NET development, like methods to verify if an argument is null and to throws an exception if so, extensions to compare strings ignoring case with more sugar (wait.. what???) and so on.</Description>
+    <AssemblyVersion>0.0.0.3</AssemblyVersion>
+    <FileVersion>0.0.0.3</FileVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.0.2</Version>
+    <Version>0.0.3</Version>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/danielzhe/Zheon.Helpers</RepositoryUrl>
   </PropertyGroup>
 
 </Project>

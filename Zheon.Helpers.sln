@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zheon.Common", "src\Zheon.C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{79D3308E-DAAA-4A98-8351-28D79451FB97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zheon.WpfCommon", "src\Zheon.WpfCommon\Zheon.WpfCommon.csproj", "{68A9724C-4633-4524-89E0-2F2E5362CB98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{F7DDB732-C282-496E-858F-AB44A4E6BBFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7DDB732-C282-496E-858F-AB44A4E6BBFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7DDB732-C282-496E-858F-AB44A4E6BBFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68A9724C-4633-4524-89E0-2F2E5362CB98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A9724C-4633-4524-89E0-2F2E5362CB98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A9724C-4633-4524-89E0-2F2E5362CB98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A9724C-4633-4524-89E0-2F2E5362CB98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F7DDB732-C282-496E-858F-AB44A4E6BBFC} = {79D3308E-DAAA-4A98-8351-28D79451FB97}
+		{68A9724C-4633-4524-89E0-2F2E5362CB98} = {79D3308E-DAAA-4A98-8351-28D79451FB97}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D5413E49-13F0-42CF-BC24-1C8092032FE6}
