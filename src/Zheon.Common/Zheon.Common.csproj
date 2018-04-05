@@ -10,10 +10,11 @@
     <FileVersion>0.0.0.4</FileVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>0.0.4</Version>
-    <PackageProjectUrl></PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/danielzhe/Zheon.Helpers</PackageProjectUrl>
     <RepositoryUrl>https://github.com/danielzhe/Zheon.Helpers</RepositoryUrl>
     <PackageReleaseNotes>Included XML documentation.</PackageReleaseNotes>
     <PackageTags></PackageTags>
+    <PackageLicenseUrl>https://github.com/danielzhe/Zheon.Helpers/blob/master/LICENSE</PackageLicenseUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netcoreapp1.0|AnyCPU'">
