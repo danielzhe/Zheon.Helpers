@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Zheon.WpfCommon</id>
+    <version>0.0.1</version>
+    <authors>Daniel José dos Santos (aka Daniel Zhe)</authors>
+    <owners>Daniel José dos Santos (aka Daniel Zhe)</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Provides common helpers and syntax sugars to WPF development with MVVM design pattern. The goal of this package is to be small and light, providing only helpers for VERY COMMON tasks and not too specific. Part of Zheon.Helpers.</description>
+    <repository url="https://github.com/danielzhe/Zheon.Helpers" />
+    <dependencies>      
+      <group targetFramework=".NETFramework4.5" />
+      <group targetFramework=".NETFramework4.5.1" />
+      <group targetFramework=".NETFramework4.5.2" />
+      <group targetFramework=".NETFramework4.6" />
+      <group targetFramework=".NETFramework4.6.1" />
+      <group targetFramework=".NETFramework4.6.2" />
+      <group targetFramework=".NETFramework4.7" />
+      <group targetFramework=".NETFramework4.7.1" />      
+    </dependencies>
+  </metadata>
+</package>
