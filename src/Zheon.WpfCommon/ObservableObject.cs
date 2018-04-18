@@ -5,6 +5,9 @@ using Zheon.WpfCommon.Annotations;
 
 namespace Zheon.WpfCommon
 {
+    /// <summary>
+    /// Defines an ObservableObject, to use as ViewModel or other object with dependency properties.
+    /// </summary>
     public abstract class ObservableObject : DependencyObject, INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;

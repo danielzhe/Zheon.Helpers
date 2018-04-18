@@ -3,6 +3,9 @@ using System.Threading.Tasks;
 
 namespace Zheon.WpfCommon
 {
+    /// <summary>
+    /// Defines a generic thread-safe simple Progress Monitor.
+    /// </summary>
     public sealed class ProgressMonitor : ObservableObject
     {
         private int _current;

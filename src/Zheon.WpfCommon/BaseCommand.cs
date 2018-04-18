@@ -3,6 +3,9 @@ using System.Windows.Input;
 
 namespace Zheon.WpfCommon
 {
+    /// <summary>
+    /// Defines a base command to use in MVVM.
+    /// </summary>
     public abstract class BaseCommand : ICommand
     {
         private bool _canExecute;
